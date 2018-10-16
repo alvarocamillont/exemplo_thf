@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@totvs/thf-theme/css/thf-theme-default.min.css",
               "src/styles.css"
             ],
             "scripts": []
