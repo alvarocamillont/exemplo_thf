@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'exemplo-talk';
+  menus = [
+    { label: 'Hello World', link: './hello-world' },
+  ];
 }

@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ThfModule } from '@totvs/thf-ui';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     ThfModule
   ],
   providers: [],
